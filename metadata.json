@@ -1,0 +1,35 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "charlylima@gmail",
+                "Name": "Charly Lima"
+            }
+        ],
+        "Category": "Utilities",
+        "Dependencies": [
+        ],
+        "Description": "Webcam Picture Frame",
+        "EnabledByDefault": true,
+        "Icon": "image-x-generic",
+        "Id": "com.github.charlylima.webcamwidget",
+        "License": "GPL-2.0",
+        "Name": "Webcam Media Frame",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://kde.org/plasma-desktop/"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-DropMimeTypes": [
+        "inode/directory",
+        "image/jpeg",
+        "image/png",
+        "image/svg+xml",
+        "image/svg+xml-compressed",
+        "image/bmp"
+    ],
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-StandAloneApp": true
+}
