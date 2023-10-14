@@ -10,7 +10,7 @@
         <default>10</default>
     </entry>
     <entry name="url" type="String">
-        <default>http://www.chiemgau-hd.de/badendorf/img/current/1200.jpg</default>
+        <default>http://www.terra-hd.de/badendorf/img/current/1200.jpg</default>
     </entry>
   </group>
 </kcfg>
