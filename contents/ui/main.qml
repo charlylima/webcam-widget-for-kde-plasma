@@ -27,6 +27,7 @@ Item {
         source: plasmoid.configuration.url
         fillMode: Image.PreserveAspectFit
         anchors.fill: parent
+        cache: !plasmoid.configuration.disableCaching  // Use configuration to control caching
         function reload() {
             console.log("Reload " + image.source);
             image.source = "view-refresh-symbolic.svg"; 
